@@ -1,0 +1,32 @@
+<html>
+    <link style=visibility:false rel="shortcut icon" href="../style/Favicon.png">
+
+<head>
+    <title>Movies Site</title>
+    <!-- linking to css file -->
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="topnav">
+        <a href="">Home</a>
+        <a onClick="getNowPlaying()" href="javascript:void(0)">Now Playing</a>
+        <a onClick="showFavoritesList()" href="javascript:void(0)">My Favorites</a>
+        <a onClick="getTopRated()" href="javascript:void(0)">Top Rated</a>
+    </div>
+    <!-- main page header -->
+    <header class="header">
+        <h1 id="pageTitle"> </h1>
+    </header>
+    <!-- main content -->
+    <main id="main"></main>
+    <!-- linking to js file "controller" -->
+    <script src="../controller/script.js"></script>
+    <!-- load more button to load more movies -->
+    <button class="button" onClick="loadMore()">
+        Load More
+    </button>
+</body>
+
+</html>

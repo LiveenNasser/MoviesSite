@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link style=visibility:false rel="shortcut icon" href="../style/Favicon.png">
+    <title>Movie Details</title>
+    <!-- linking to css file -->
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="topnav">
+        <a onClick="" href="../index.html">Home</a>
+        <a onClick="getNowPlaying()" href="javascript:void(0)">Now Playing</a>
+        <a onClick="showFavoritesList()" href="javascript:void(0)">My Favorites</a>
+        <a onClick="getTopRated()" href="javascript:void(0)">Top Rated</a>
+        <script src="../controller/script.js"></script>
+    </div>
+    <header class="header">
+        <h1 id="pageTitle"></h1>
+    </header>
+    <main id="main">
+        <img id="movieImg" width="400" height="400" src=" " />
+        <p id="overview"></p></br>
+        <input type="button" value="Add To Favorites" onClick="addToFavorites()">
+    </main>
+
+
+
+    <script src="../controller/details.js"></script>
+
+
+
+
+</body>
+
+</html>

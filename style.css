@@ -1,0 +1,70 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 30px;
+    width: 20%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #2114d6;
+    color: white;
+}
+
+/* set the header to the center */
+.header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* styling color&font for buttons */
+
+.button {
+    display: block;
+    width: 100%;
+    border: none;
+    color: #f2f2f2;
+    background-color: #000000;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+  }
+/* styling movie fields */
+  .movie {
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 4px 5px;  
+    overflow: hidden;
+    position: relative;
+    margin: 1rem;
+    width: 300px;
+}
+/* setting movie img size */
+
+.movie img {
+    width: 100%;
+}
+
+/* setting main contet display style */
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
